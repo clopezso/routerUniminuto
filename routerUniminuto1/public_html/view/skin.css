@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/05/2017, 06:51:56 PM
+    Author     : englinx
+*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+table, th, td {
+    border: 1px solid black;
+}
+
+#map {
+    height: 100%;
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+#right-panel {
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+#right-panel select, #right-panel input {
+    font-size: 15px;
+}
+
+#right-panel select {
+    width: 100%;
+}
+
+#right-panel i {
+    font-size: 12px;
+}
+
+#right-panel {
+    margin: 20px;
+    border-width: 2px;
+    width: 20%;
+    float: left;
+    text-align: left;
+    padding-top: 20px;
+}
+#directions-panel {
+    margin-top: 20px;
+    background-color: #FFEE77;
+    padding: 10px;
+}

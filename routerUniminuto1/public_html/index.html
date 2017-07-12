@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Generador de rutas</title>
+    <link rel="stylesheet" type="text/css" href="view/skin.css">    
+    <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script> 
+  </head>
+  <body>
+    <div id="map"></div>
+    <div id="right-panel">
+    <div>
+        <!--<input type="submit" id="generarRuta" value="generar Ruta">-->
+        <input type="submit" id="generarRutaOptimizada" value="Optimal Route">
+    </div>
+    <div id="distancesMat">
+
+    </div>
+    <div id="respuesta">
+           --->
+    </div>
+    <div id="directions-panel">
+            
+    </div>
+    </div>
+    <!-- ============================ Importación de Scripts ================= -->
+    <script type="text/javascript" src="model/Globals.js"></script>
+    
+    <script type="text/javascript" src="control/control.js"></script>
+    <script type="text/javascript" src="model/AjaxFunctions.js"></script>
+    <script type="text/javascript" src="model/MapFunctions.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJXfyZmMIobjwlF4p0dXzQSL1ngaiUi8I&signed_in=true&callback=initMap" async defer></script>
+    <!-- ===================================================================== -->
+  </body>
+</html>
